@@ -1,2 +1,2 @@
 # Documentação Python
- Pagina dedica para todas as informações de python
+ Pagina dedicada para informações sobre python
