@@ -126,22 +126,38 @@ body{
 .code-position{
   position: relative;
   left: 10px;
+  bottom: 15px;
 }
 
 .code2{
   position: relative;
   left: 40px;
+  bottom: 15px;
 }
 
 .code-relative{
   position: relative;
   left: 35px;
+  bottom: 15px;
 }
 
 .code3{
   position: relative;
   left: 65px;
+  bottom: 15px;
 }
 
+.code-top1{
+  position: relative;
+  bottom: 15px;
+}
 
+.code-top2{
+  position: relative;
+  bottom: 15px;
+}
 
+.code-top3{
+  position: relative;
+  bottom: 15px;
+}
