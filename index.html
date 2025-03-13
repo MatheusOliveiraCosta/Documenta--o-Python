@@ -217,9 +217,9 @@
             <h3>Herança</h3>
             <p>Python suporta herança, permitindo que classes derivadas herdem atributos e métodos de classes base.</p>
             <div class="code-python">
-              <p><code>class Cachorro(Animal):</code></p>
-              <p><code>def emitir_som(self):</code></p>
-              <p><code>return "Latido"</code></p>
+              <p><code><span class="def">Class</span> <span class="classe">Cachorro</span>(<span class="classe">Animal</span>)<span class="operador">:</span></code></p>
+              <p><code class="code-relative"><span class="def">def</span> <span class="init">emitir_som</span>(<span class="def">self</span>)<span class="operador">:</span></code></p>
+              <p><code class="code3"><span class="pass">return</span> <span class="letra">"Latido"</span></code></p>
             </div>
             <p>Neste exemplo, "Cachorro" herda de "Animal" e implementa o método "emitir_som".</p>
 
@@ -246,10 +246,10 @@
             <h3>Polimorfismo</h3>
             <p>Python permite polimorfismo, onde diferentes classes podem implementar métodos com o mesmo nome, e o comportamento específico é determinado pela classe da instância em uso.</p>
             <div>
-              <p><code>animais = [Cachorro("Rex", "Canino"), Gato("Mia", "Felino")]</code></p>
+              <p><code><span class="def">animais</span> <span class="operador">=</span> [<span class="operador">Cachorro</span><span class="pass">(<span class="letra">"Rex"</span><span class="operador">,</span> <span class="letra">"Canino"</span>)<span class="operador">, Gato</span>(<span class="letra">"Mia"</span><span class="operador">,</span> <span class="letra">"Felino"</span>)</span>]</code></p>
 
-              <p><code>for animal in animais:</code></p>
-              <p><code>print(animal.emitir_som())</code></p>
+              <p><code><span class="pass">for</span> <span class="def">animal</span> <span class="pass">in</span> <span class="def">animais</span><span class="operador">:</span></code></p>
+              <p><code class="code-relative"><span class="funcao">print</span>(<span class="def">animal</span><span class="operador">.emitir_som</span><span class="pass">()</span>)</code></p>
             </div>
             <p>Neste caso, cada objeto animal invoca seu próprio método emitir_som, demonstrando polimorfismo.</p>
 
