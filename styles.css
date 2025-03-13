@@ -128,7 +128,18 @@ body{
   left: 10px;
 }
 
+.code2{
+  position: relative;
+  left: 40px;
+}
+
 .code-relative{
   position: relative;
   left: 35px;
 }
+
+.code3{
+  position: relative;
+  left: 65px;
+}
+

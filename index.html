@@ -226,20 +226,20 @@
             <h3>Encapsulamento</h3>
             <p>Embora Python não imponha rigorosamente o encapsulamento, convenciona-se prefixar atributos ou métodos com um sublinhado (_) para indicar que são de uso interno.</p>
             <div class="code-python">
-              <p><code>class ContaBancaria:</code></p>
-              <p><code>def __init__(self, saldo_inicial):</code></p>
-              <p><code>self._saldo = saldo_inicial</code></p>
+              <p><code><span class="variavel">class</span> <span class="classe">ContaBancaria</span><span class="operador">:</span></code></p>
+              <p><code class="code-position"><span class="def">def</span> <span class="init">__init__</span>(<span class="def">self<span class="operador">,</span> saldo_inicial</span>)<span class="operador">:</span></code></p>
+              <p><code class="code2"><span class="def">self<span class="operador">.</span>_saldo <span class="operador">=</span> saldo_inicial</span></code></p>
 
-              <p><code>def depositar(self, quantia):</code></p>
-              <p><code>self._saldo += quantiacode</code></p>
+              <p><code class="code-position"><span class="def">def</span> <span class="init">depositar</span>(<span class="def">self, quantia</span>)<span class="operador">:</span></code></p>
+              <p><code class="code2"><span class="def">self<span class="operador">.</span>_saldo <span class="operador">+=</span> quantia</span></code></p>
 
-              <p><code>def sacar(self, quantia):</code></p>
-              <p><code>if quantia <= self._saldo:</code></p>
-              <p><code>self._saldo -= quantia</code></p>
-              <p><code>return quantia</code></p>
+              <p><code class="code-position"><span class="def">def</span> <span class="init">sacar</span>(<span class="def">self<span class="operador">,</span> quantia</span>)<span class="operador">:</span></code></p>
+              <p><code class="code2"><span class="pass">if</span> <span class="def">quantia <span class="operador"><=</span> self<span class="operador">.</span>_saldo<span class="operador">:</span></code></p>
+              <p><code class="code3"><span class="def">self<span class="operador">.</span>_saldo <span class="operador">-=</span> <span class="def">quantia</span></span></code></p>
+              <p><code class="code3"><span class="pass">return</span> <span class="def">quantia</span></code></p>
 
-              <p><code>else:</code></p>
-              <p><code>raise ValueError("Saldo insuficiente")</code></p>
+              <p><code class="code2"><span class="pass">else<span class="operador">:</span></span></code></p>
+              <p><code class="code3"><span class="pass">raise</span> <span class="classe">ValueError</span>(<span class="letra">"Saldo insuficiente"</span>)</code></p>
             </div>
             <p>"Aqui, _saldo" é considerado um atributo protegido, sugerindo que não deve ser acessado diretamente fora da classe.</p>
 
