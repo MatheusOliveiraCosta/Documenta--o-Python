@@ -64,7 +64,7 @@ body{
   }
 
   code{
-    color: #8d5900;
+    color: #b37a00;
   }
 
   #navbar img{
@@ -86,3 +86,49 @@ body{
   code{
     font-size: 15px;
   }
+
+  .comentario{
+    color: #91fa91c7;
+  }
+
+  .operador{
+    color: white;
+  }
+
+  .variavel{
+    color: #4a8ec5;
+  }
+
+  .funcao{
+    color: #ffe894;
+  }
+
+  .letra{
+    color: #dbac64c0;
+  }
+
+  .classe{
+    color: #4ac59c;
+  }
+
+  .def{
+    color: #4a8ec5;
+  }
+
+  .pass{
+    color: #f851e2;
+  }
+
+  .init{
+    color: #ffe894;
+  }
+
+.code-position{
+  position: relative;
+  left: 10px;
+}
+
+.code-relative{
+  position: relative;
+  left: 35px;
+}

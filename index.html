@@ -41,12 +41,12 @@
            <p>Em Python, as <code>variáveis</code> são essencialmente nomes que apontam para objetos na memória, permitindo armazenar e manipular dados de forma dinâmica sem a necessidade de declarar explicitamente o tipo. Isso significa que você pode criar, modificar e combinar variáveis de maneira flexível, usando-as para cálculos, manipulação de textos, coleções e muito mais.</p>
            <h3>Exemplo</h3>
            <div class="code-python">
-            <p><code># Atribuição de valores</code></p>
-            <p><code>x = 10</code></p>
-            <p><code>y = 20</code></p>
-            <p><code># Operação com variáveis</code></p>
-            <p><code>soma = x + y</code></p>
-            <p><code>print("A soma é:", soma)</code></p>
+            <p><code><span class="comentario"># Atribuição de valores</span></code></p>
+            <p><code><span class="variavel">x</span> <span class="operador">=</span> <span class="comentario">10</span></code></p>
+            <p><code><span class="variavel">y</span> <span class="operador">=</span> <span class="comentario">20</span></code></p>
+            <p><code><span class="comentario">#Operação com variáveis</span></code></p>
+            <p><code><span class="variavel">soma</span> <span class="operador">=</span> <span class="variavel">x</span> <span class="operador">+</span> <span class="variavel">y</span></code></p>
+            <p><code><span class="funcao">print</span>(<span class="letra">"A soma é:"</span><span class="operador">,</span> <span class="variavel">soma</span>)</code></p>
            </div>
         </header>
       </section>
@@ -204,13 +204,13 @@
 
            <h3>Definição de classe e objeto</h3>
            <div class="code-python">
-            <p><code>class Animal:</code></p>
-            <p><code>def __init__(self, nome, especie):</code></p>
-            <p><code>self.nome = nome</code></p>
-            <p><code>self.especie = especie</code></p>
+            <p><code><span class="variavel">class</span> <span class="classe">Animal</span><span class="operador">:</span></code></p>
+            <p><code class="code-position"><span class="def">def</span> <span class="init">__init__</span>(<span class="def">self</span><span class="operador">,</span> <span class="def">nome</span><span class="operador">,</span> <span class="def">especie</span>)<span class="operador">:</span></code></p>
+            <p><code class="code-relative"><span class="def">self<span class="operador">.</span>nome <span class="operador">=</span> nome</span></code></p>
+            <p><code class="code-relative"><span class="def">self<span class="operador">.</span>nome <span class="operador">=</span> especie</span></code></p>
 
-            <p></code>def emitir_som(self):</code></p>
-            <p><code>pass</code></p>
+            <p><code class="code-position"><span class="def">def</span> <span class="init">emitir_som</span>(<span class="def">self</span>)<span class="operador">:</span></code></p>
+            <p><code class="code-relative"><span class="pass">pass</span></code></p>
            </div>
             <p>Aqui, "Animal" é uma classe com um método construtor __init__ que inicializa os atributos nome e especie. O método "emitir_som" é definido, mas não implementado, indicando que subclasses devem fornecer sua própria versão deste método.</p>
 
