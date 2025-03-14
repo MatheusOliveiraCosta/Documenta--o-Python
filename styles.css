@@ -64,7 +64,7 @@ body{
   }
 
   code{
-    color: #b37a00;
+    color: #5c3400;
   }
 
   #navbar img{
@@ -191,3 +191,36 @@ body{
   
   
 }
+
+.tabela{
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin-top: 20px;
+}
+
+.tabela th, .tabela td{
+  padding: 8px;
+  text-align: left;
+  border: 1px solid #545455;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.tabela th{
+  color: #c09600;
+}
+
+.tabela td:nth-child(3){
+  font-family: 'Courier New', Courier, monospace;
+  color: #969696;
+}
+
+.tabela td:nth-child(2){
+  color: #f0f0f0;
+}
+
+table tr td:first-child code{
+  color: #006ac0;
+}
+
