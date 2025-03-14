@@ -233,3 +233,7 @@ table tr td:first-child code{
   color: #006ac0;
 }
 
+.modulo code{
+  color: #0e1242;
+  font-size: 17px;
+}
