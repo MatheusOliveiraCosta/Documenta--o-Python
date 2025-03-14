@@ -189,7 +189,16 @@ body{
     left: 2px;
   }
   
-  
+  table{
+    width: 100%;
+    display: block;
+    overflow-x: auto;
+    font-size: 14px;
+  }
+
+  table th, table td{
+    padding: 8px;
+  }
 }
 
 .tabela{
