@@ -237,3 +237,13 @@ table tr td:first-child code{
   color: #0e1242;
   font-size: 17px;
 }
+
+header{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+a{
+  font-size: 17px;
+  font-weight: bold;
+}
